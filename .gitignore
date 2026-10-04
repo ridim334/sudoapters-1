@@ -11,3 +11,6 @@ Thumbs.db
 
 .vscode/
 .idea/
+/new-game-project/.godot
+*.cfg
+/new-game-project/.godot

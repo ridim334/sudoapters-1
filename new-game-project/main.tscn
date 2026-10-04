@@ -48,5 +48,3 @@ size = Vector3(7, 3, 9)
 
 [node name="PlayerController" parent="." unique_id=88946456 instance=ExtResource("1_ig7tw")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, -1.5)
-
-[node name="CSGBox3D" type="CSGBox3D" parent="PlayerController" unique_id=2037560069]
