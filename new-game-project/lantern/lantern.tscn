@@ -1,0 +1,94 @@
+[gd_scene format=3 uid="uid://cku00ncl0xxa2"]
+
+[ext_resource type="PackedScene" uid="uid://c1h8uotiu7kb8" path="res://lantern/Lantern.fbx" id="1_fd3fi"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_kl3c0"]
+albedo_color = Color(0.46618086, 0.4661808, 0.4661808, 1)
+metallic = 0.59
+metallic_specular = 0.28
+roughness = 0.49
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_6dlqo"]
+albedo_color = Color(0, 0.8627451, 0.99607843, 1)
+metallic = 0.13
+metallic_specular = 0.33
+roughness = 0.61
+emission_enabled = true
+emission = Color(0.17617968, 0.38555044, 0.5178537, 1)
+emission_energy_multiplier = 2.0
+refraction_enabled = true
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_pf3y8"]
+albedo_color = Color(0.7788734, 0.5180945, 0.6011015, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_rka4y"]
+albedo_color = Color(0.6359486, 0.67927134, 0.8825723, 1)
+metallic = 0.33
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_dsi5t"]
+albedo_color = Color(0.36282945, 0.36282945, 0.36282945, 1)
+metallic = 0.45
+roughness = 0.7
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ou30t"]
+albedo_color = Color(0.74718916, 0.67296857, 0.92378, 1)
+metallic = 0.72
+roughness = 0.4
+
+[node name="Lantern" unique_id=1711012922 instance=ExtResource("1_fd3fi")]
+
+[node name="mBaseMesh" parent="." index="0" unique_id=655435053]
+transform = Transform3D(77.33233, 0, 0, 0, 3.6354458, 0, 0, 0, 77.33233, -0.19879366, -0.7596001, 0.017855026)
+material_override = SubResource("StandardMaterial3D_kl3c0")
+
+[node name="mMainBody" parent="." index="1" unique_id=2125223717]
+transform = Transform3D(41.320225, 0, 0, 0, 2.619809, 0, 0, 0, 41.320225, -0.19677372, 0.33005, 0.018225161)
+material_override = SubResource("StandardMaterial3D_6dlqo")
+
+[node name="mTopMesh" parent="." index="2" unique_id=1360758876]
+transform = Transform3D(56.550224, 0, 0, 0, -2.658465, -6.925176e-15, 0, 3.255573e-16, -56.550224, -0.19677372, 0.4881186, 0.018225161)
+material_override = SubResource("StandardMaterial3D_pf3y8")
+
+[node name="mHandle" parent="." index="3" unique_id=1361725118]
+transform = Transform3D(10.779823, 0, 0, 0, 0, -11.437871, 0, 11.437871, 0, 2.6508186, 0.4972392, 0.009693043)
+material_override = SubResource("StandardMaterial3D_rka4y")
+
+[node name="mJoint" parent="." index="4" unique_id=1526384825]
+transform = Transform3D(11.504632, 0, 0, 0, 1.605434, 0, 0, 0, 11.504632, 0.1644007, 0.55676466, 0.018225161)
+material_override = SubResource("StandardMaterial3D_dsi5t")
+
+[node name="mJoint1" parent="." index="5" unique_id=1552038743]
+transform = Transform3D(11.504632, 0, 0, 0, 1.605434, 0, 0, 0, 11.504632, -0.55634874, 0.55676466, 0.018225161)
+material_override = SubResource("StandardMaterial3D_dsi5t")
+
+[node name="mGrill5" parent="." index="6" unique_id=279234727]
+transform = Transform3D(-14.1, 0, 1.726695e-15, 0, 14.1, 0, -1.726695e-15, 0, -14.1, 0.32464692, -0.10729816, 0.018225161)
+material_override = SubResource("StandardMaterial3D_ou30t")
+
+[node name="mGrill4" parent="." index="7" unique_id=191793696]
+transform = Transform3D(-14.1, 0, 1.726695e-15, 0, 14.1, 0, -1.726695e-15, 0, -14.1, 0.3121679, -0.10729816, -0.11169897)
+material_override = SubResource("StandardMaterial3D_ou30t")
+
+[node name="mGrill3" parent="." index="8" unique_id=1263300175]
+transform = Transform3D(0.1296659, 0, 14.099404, 0, 14.1, 0, -14.099404, 0, 0.1296659, -0.11462921, -0.10729816, 0.5352757)
+material_override = SubResource("StandardMaterial3D_ou30t")
+
+[node name="mGrill2" parent="." index="9" unique_id=1771102796]
+transform = Transform3D(0.1296659, 0, 14.099404, 0, 14.1, 0, -14.099404, 0, 0.1296659, -0.21108648, -0.10729816, 0.54463804)
+material_override = SubResource("StandardMaterial3D_ou30t")
+
+[node name="mGrill" parent="." index="10" unique_id=519358320]
+transform = Transform3D(0, 0, -14.1, 0, 14.1, 0, 14.1, 0, 0, -0.21108648, -0.10729816, -0.50176495)
+material_override = SubResource("StandardMaterial3D_ou30t")
+
+[node name="sweep9" parent="." index="11" unique_id=2140443559]
+transform = Transform3D(0, 0, -14.1, 0, 14.1, 0, 14.1, 0, 0, -0.11462921, -0.10729816, -0.51112735)
+material_override = SubResource("StandardMaterial3D_ou30t")
+
+[node name="mGrill6" parent="." index="12" unique_id=1292209398]
+transform = Transform3D(14.1, 0, -3.45339e-15, 0, 14.1, 0, 3.45339e-15, 0, 14.1, -0.7280101, -0.10729816, 0.018225161)
+material_override = SubResource("StandardMaterial3D_ou30t")
+
+[node name="mGrill7" parent="." index="13" unique_id=220371337]
+transform = Transform3D(14.1, 0, -3.45339e-15, 0, 14.1, 0, 3.45339e-15, 0, 14.1, -0.71361005, -0.10729816, -0.11169897)
+material_override = SubResource("StandardMaterial3D_ou30t")
