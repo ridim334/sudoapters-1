@@ -1,8 +1,10 @@
 78098b89c88a74ebe8c20117b8754620
-::res://::1791108697
+::res://::1791112063
 icon.svg::CompressedTexture2D::1790880795757653::1791105497::1791105550::1::::<><><>0<>0<>1d558fff71561543e2cf7e0d300c3350<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-main.tscn::PackedScene::5926153398409090926::1791108377::0::1::::<><><>0<>0<><>::uid://bs72ogkvdd7d6::::res://addons/proto_controller/proto_controller.tscn
-::res://addons/::1791107941
-::res://addons/proto_controller/::1791108306
-proto_controller.gd::GDScript::870887029833741554::1791108287::0::1::::<>CharacterBody3D<><>0<>0<><>::
-proto_controller.tscn::PackedScene::3717544648773412845::1791108306::0::1::::<><><>0<>0<><>::uid://mn4m800xff0u::::res://addons/proto_controller/proto_controller.gd
+main.tscn::PackedScene::5926153398409090926::1791112080::0::1::::<><><>0<>0<><>::
+::res://addons/::1791111472
+::res://addons/proto_controller/::1791112063
+::res://player/::1791112063
+::res://player/char/::0
+player_controller.gd::GDScript::7213959200061713503::1791111476::0::1::::<>CharacterBody3D<><>0<>0<><>::
+player_controller.tscn::PackedScene::3717544648773412845::1791112080::0::1::::<><><>0<>0<><>::uid://da1q4bjw7kwjf::::res://player/player_controller.gd
