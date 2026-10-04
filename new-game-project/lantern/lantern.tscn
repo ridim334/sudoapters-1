@@ -15,7 +15,7 @@ metallic_specular = 0.33
 roughness = 0.61
 emission_enabled = true
 emission = Color(0.17617968, 0.38555044, 0.5178537, 1)
-emission_energy_multiplier = 2.0
+emission_energy_multiplier = 4.33
 refraction_enabled = true
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_pf3y8"]
@@ -44,6 +44,12 @@ material_override = SubResource("StandardMaterial3D_kl3c0")
 [node name="mMainBody" parent="." index="1" unique_id=2125223717]
 transform = Transform3D(41.320225, 0, 0, 0, 2.619809, 0, 0, 0, 41.320225, -0.19677372, 0.33005, 0.018225161)
 material_override = SubResource("StandardMaterial3D_6dlqo")
+
+[node name="OmniLight3D" type="OmniLight3D" parent="mMainBody" index="0" unique_id=1603573792]
+light_color = Color(0.3686661, 0.66794866, 0.84235984, 1)
+light_energy = 2.351
+light_indirect_energy = 3.286
+light_size = 0.097
 
 [node name="mTopMesh" parent="." index="2" unique_id=1360758876]
 transform = Transform3D(56.550224, 0, 0, 0, -2.658465, -6.925176e-15, 0, 3.255573e-16, -56.550224, -0.19677372, 0.4881186, 0.018225161)
